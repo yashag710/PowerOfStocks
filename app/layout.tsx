@@ -10,8 +10,7 @@ const cabin = Cabin({
 
 export const metadata: Metadata = {
   title: 'Power of Stocks',
-  description: 'Created with v0',
-  generator: 'v0.dev',
+  description: 'Learn to trade stocks like a pro with our comprehensive courses and expert guidance.',
 }
 
 export default function RootLayout({
