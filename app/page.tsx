@@ -10,9 +10,12 @@ import { SocialMediaSection } from "@/components/social-media-section"
 import { CTASection } from "@/components/cta-section"
 import { Footer } from "@/components/footer"
 
+import Head from "next/head";
+
 export default function PowerOfStocksLanding() {
   return (
-    <div className="flex flex-col min-h-screen bg-white">
+    <>
+     <div className="flex flex-col min-h-screen bg-white">
       <Header />
       <main className="flex-1">
         <HeroSection />
@@ -27,5 +30,6 @@ export default function PowerOfStocksLanding() {
       </main>
       <Footer />
     </div>
+    </>
   )
 }

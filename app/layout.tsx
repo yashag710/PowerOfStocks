@@ -9,7 +9,7 @@ const cabin = Cabin({
 })
 
 export const metadata: Metadata = {
-  title: 'v0 App',
+  title: 'Power of Stocks',
   description: 'Created with v0',
   generator: 'v0.dev',
 }
